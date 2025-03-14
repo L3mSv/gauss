@@ -14,7 +14,8 @@ Projetado sobre ([Gaussian Elimination](https://github.com/gmendonca/gaussian-el
 
 ## Utilizacao do programa: 
 
-[!IMPORTANT] Os programas foram executados e testados em maquina Windows
+[!IMPORTANT] 
+    Os programas foram executados e testados em maquina Windows
 
 Para executar o codigo de `gauss.c`, digite:
 
