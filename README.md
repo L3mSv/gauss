@@ -11,7 +11,11 @@ Felipe Laranjeira <br/>
 Gabriel de Souza Maciel  <br/>
 Frederico Laranjeira <br/>
 
+
+## Utilizacao do programa: 
+
 Para executar o codigo de `gauss.c`, digite:
+
     gcc gauss.c -o gauss.out 
     ./gauss.out <matrix_dimensions> [random seed]
 
@@ -39,8 +43,9 @@ A saida deve se parecer com:
     X = [-74.89; 51.54; -7.39; 11.85;  7.83]
 
 Para executar o codigo de `gauss.go`, digite:
+
     go run gauss.go 
-    
+
 Apos iniciar a execucao, o programa ira pedir ao usuario para informar a dimensao da matriz entre 1 e 2000
 
 A saida deve se parecer com isso:
