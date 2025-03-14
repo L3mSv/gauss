@@ -183,7 +183,7 @@
     */
  
  
-   /* Back substitution */
+
    for (row = N - 1; row >= 0; row--) {
      X[row] = B[row];
      for (col = N-1; col > row; col--) {
