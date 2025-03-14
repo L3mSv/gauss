@@ -1,14 +1,21 @@
-# gauss
+# Eliminacao de Gauss 
+
+Objetivo: Compreender as características de Rust e Golang comparando programas implementados nestas linguagens com a implementação em C
+
+Projetado sobre ([Gaussian Elimination](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp.git))
+
 
 ## Componentes do grupo:
-Lucas Lemes
-Felipe Laranjeira
-Gabriel de Souza Maciel 
-Frederico Laranjeira
+Lucas Lemes <br/>
+Felipe Laranjeira <br/>
+Gabriel de Souza Maciel  <br/>
+Frederico Laranjeira <br/>
 
 Para executar o codigo de `gauss.c`, digite:
     gcc gauss.c -o gauss.out 
     ./gauss.out <matrix_dimensions> [random seed]
+
+A saida deve se parecer com:
 
     Matrix dimension N = 5.
 
@@ -33,6 +40,7 @@ Para executar o codigo de `gauss.c`, digite:
 
 Para executar o codigo de `gauss.go`, digite:
     go run gauss.go 
+    
 Apos iniciar a execucao, o programa ira pedir ao usuario para informar a dimensao da matriz entre 1 e 2000
 
 A saida deve se parecer com isso:
