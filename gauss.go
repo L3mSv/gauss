@@ -10,7 +10,7 @@ import (
 const MAXN = 2000
 
 // Global variables
-var N int
+var N int // Matrix dimension
 var A [MAXN][MAXN]float64
 var B [MAXN]float64
 var X [MAXN]float64
@@ -21,9 +21,9 @@ func initializeInputs() {
 
 	for col := 0; col < N; col++ {
 		for row := 0; row < N; row++ {
-			A[row][col] = rand.Float64() / 32768.0
+			A[row][col] = rand.Float64() * 100.0 // Multiplicando por 100 para valores mais significativos
 		}
-		B[col] = rand.Float64() / 32768.0
+		B[col] = rand.Float64() * 100.0 // Multiplicando por 100 para valores mais significativos
 		X[col] = 0.0
 	}
 }
@@ -99,9 +99,6 @@ func main() {
 		fmt.Printf("N = %d is out of range.\n", N)
 		return
 	}
-
-	// Set random seed
-	rand.Seed(time.Now().UnixNano())
 
 	// Initialize A and B
 	initializeInputs()
