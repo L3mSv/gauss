@@ -7,9 +7,9 @@ Projetado sobre ([Gaussian Elimination](https://github.com/gmendonca/gaussian-el
 
 ## Componentes do grupo:
 - Lucas Lemes <br/>
-- Felipe Laranjeira <br/>
+- Felipe Larangeira <br/>
 - Gabriel de Souza Maciel  <br/>
-- Frederico Laranjeira <br/>
+- Frederico Larangeira <br/>
 
 
 ## Utilizacao do programa: 
