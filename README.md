@@ -60,13 +60,23 @@ Apos iniciar a execucao, o programa ira pedir ao usuario para informar a dimensa
 A saida deve se parecer com isso:
 
 ```
-    Enter matrix dimension N (1 to 2000): 23
+Enter matrix dimension N (1 to 2000): 5
 
-    Initializing...
-    Computing Serially.
+Initializing...
 
-    Elapsed time = 0 ms.
+Matrix A:
+40.49, 62.98, 79.01, 29.03, 13.38;
+39.15, 46.83,  3.62, 67.78, 18.07;
+ 7.25, 84.64, 83.44, 21.44, 97.68;
+55.11, 12.64,  0.40, 92.67, 47.76;
+38.51, 49.31,  6.61, 29.23, 49.03;
 
-    Solution Vector X:
-    [ 1.01; -0.53; -0.23;  0.49; -1.40; -0.04; -0.64; -0.10; -0.70; -0.79; -1.79;  1.09;  0.86; -0.18;  1.22; -1.18;  1.04;  1.30; -1.13;  0.96;  0.13;  0.08;  0.66]
+Vector B:
+[97.37; 68.52; 79.67; 28.52; 20.30]
+Computing Serially.
+
+Elapsed time = 0 ms.
+
+Solution Vector X:
+[-0.59;  0.91;  0.60;  0.86; -0.63]
 ```
