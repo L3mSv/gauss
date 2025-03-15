@@ -2,7 +2,7 @@
 
 **Objetivo**: Compreender as características de Rust e Golang comparando programas implementados nestas linguagens com a implementação em C
 
-Projetado sobre ([Gaussian Elimination](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp.git))
+Projetado sobre [Gaussian Elimination](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp.git) 
 
 
 ## Componentes do grupo:
