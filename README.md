@@ -24,7 +24,7 @@ Para executar o codigo de `gauss.c`, digite:
     ./gauss.out <matrix_dimensions> [random seed]
 ```
 
-A saida deve se parecer com:
+A saida no intervalo de [1, 10] deve se parecer com:
 
 ```
     Matrix dimension N = 5.
@@ -47,6 +47,22 @@ A saida deve se parecer com:
     Elapsed time = 0.0916 ms.
 
     X = [-74.89; 51.54; -7.39; 11.85;  7.83]
+```
+
+A partir de numeros maiores a saida deve ser:
+
+```
+Matrix dimension N = 10.
+
+Initializing...
+
+Starting clock.
+Computing Serially.
+Stopped clock.
+
+Elapsed time = 0.0838 ms.
+
+X = [-3.75;  1.31;  0.75; -0.31;  2.15; -1.47;  1.93;  0.80;  4.84; -4.57]
 ```
 
 Para executar o codigo de `gauss.go`, digite:
@@ -79,4 +95,15 @@ Elapsed time = 0 ms.
 
 Solution Vector X:
 [-0.59;  0.91;  0.60;  0.86; -0.63]
+```
+
+Para numeros maiores que 10 a saida deve ser:
+
+```
+Enter matrix dimension N (1 to 2000): 645
+
+Initializing...
+Computing Serially.
+
+Elapsed time = 58 ms.
 ```
