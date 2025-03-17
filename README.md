@@ -15,7 +15,7 @@
 ## *Utilização do programa:* 
 
 > [!IMPORTANT] 
-> Os programas foram executados e testados em máquina Windows.
+> Os programas foram executados e testados em **máquina Windows**.
 
 
 ## *Em C:*
@@ -27,7 +27,7 @@ Para executar o código de `gauss.c`, digite:
     ./gauss.out <matrix_dimensions> [random seed]
 ```
 
-A saída no intervalo de [1, 10] deve se parecer com:
+A saída no intervalo de **[1, 10]** deve se parecer com:
 
 ```
     Matrix dimension N = 5.
@@ -71,7 +71,7 @@ X = [-3.75;  1.31;  0.75; -0.31;  2.15; -1.47;  1.93;  0.80;  4.84; -4.57]
 ## *Em Golang:*
 
 > [!WARNING] 
-> No intervalo de valores [10,90] para a dimensão da matriz, o tempo de execução do programa é impresso como 0 segundos!
+> No intervalo de valores **[10,90]** para a dimensão da matriz, o tempo de execução do programa é impresso como 0 segundos!
 > Infelizmente não encontramos solução, peço desculpas. 
 
 Para executar o código de `gauss.go`, digite:
@@ -80,7 +80,7 @@ Para executar o código de `gauss.go`, digite:
     go run gauss.go 
 ```
 
-Após iniciar a execução, o programa irá pedir ao usuário para informar a dimensão da matriz entre 1 e 2000.
+Após iniciar a execução, o programa irá pedir ao usuário para informar a dimensão da matriz entre **1** e **2000**.
 
 A saída deve se parecer com isso:
 
@@ -106,7 +106,7 @@ Solution Vector X:
 [-0.59;  0.91;  0.60;  0.86; -0.63]
 ```
 
-Para números maiores que 10 a saída deve ser:
+Para números maiores que **10** a saída deve ser:
 
 ```
 Enter matrix dimension N (1 to 2000): 645
