@@ -125,7 +125,7 @@ Elapsed time = 58 ms.
 Para executar o arquivo `gauss.rs`:
 
 ```
-cargo build #Criar um executavel (Nao obrigatorio para execucao)
+cargo build 
 cargo run
 
 ```
