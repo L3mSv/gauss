@@ -1,6 +1,6 @@
-# Eliminacao de Gauss 
+# Eliminação de Gauss 
 
-**Objetivo**: Compreender as características de Rust e Golang comparando programas implementados nestas linguagens com a implementação em C
+**Objetivo**: Compreender as características de Rust e Golang comparando programas implementados nestas linguagens com a implementação em C.
 
 Projetado sobre [Gaussian Elimination](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp.git) 
 
@@ -12,19 +12,19 @@ Projetado sobre [Gaussian Elimination](https://github.com/gmendonca/gaussian-eli
 - Frederico Larangeira <br/>
 
 
-## Utilizacao do programa: 
+## Utilização do programa: 
 
 > [!IMPORTANT] 
-> Os programas foram executados e testados em maquina Windows
+> Os programas foram executados e testados em máquina Windows.
 
-Para executar o codigo de `gauss.c`, digite:
+Para executar o código de `gauss.c`, digite:
 
 ```
     gcc gauss.c -o gauss.out 
     ./gauss.out <matrix_dimensions> [random seed]
 ```
 
-A saida no intervalo de [1, 10] deve se parecer com:
+A saída no intervalo de [1, 10] deve se parecer com:
 
 ```
     Matrix dimension N = 5.
@@ -49,7 +49,7 @@ A saida no intervalo de [1, 10] deve se parecer com:
     X = [-74.89; 51.54; -7.39; 11.85;  7.83]
 ```
 
-A partir de numeros maiores a saida deve ser:
+A partir de números maiores a saída deve ser:
 
 ```
 Matrix dimension N = 10.
@@ -65,15 +65,15 @@ Elapsed time = 0.0838 ms.
 X = [-3.75;  1.31;  0.75; -0.31;  2.15; -1.47;  1.93;  0.80;  4.84; -4.57]
 ```
 
-Para executar o codigo de `gauss.go`, digite:
+Para executar o código de `gauss.go`, digite:
 
 ```
     go run gauss.go 
 ```
 
-Apos iniciar a execucao, o programa ira pedir ao usuario para informar a dimensao da matriz entre 1 e 2000
+Após iniciar a execução, o programa irá pedir ao usuário para informar a dimensão da matriz entre 1 e 2000.
 
-A saida deve se parecer com isso:
+A saída deve se parecer com isso:
 
 ```
 Enter matrix dimension N (1 to 2000): 5
@@ -97,7 +97,7 @@ Solution Vector X:
 [-0.59;  0.91;  0.60;  0.86; -0.63]
 ```
 
-Para numeros maiores que 10 a saida deve ser:
+Para números maiores que 10 a saída deve ser:
 
 ```
 Enter matrix dimension N (1 to 2000): 645
