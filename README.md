@@ -119,6 +119,9 @@ Elapsed time = 58 ms.
 
 ## *Em Rust:*
 
+> [!NOTE]
+> Para executar o arquivc **gauss.rs**, este deve estar dentro de uma pasta junto ao arquivo **cargo.toml**.
+
 Para executar o arquivo `gauss.rs`:
 
 ```
