@@ -120,12 +120,11 @@ Elapsed time = 58 ms.
 ## *Em Rust:*
 
 > [!NOTE]
-> Para executar o arquivc ```gauss.rs```, este deve estar dentro de uma pasta junto ao arquivo ```cargo.toml```.
+> Para executar o arquivc ```gauss.rs```, você deve executar os comandos seguintes dentro de uma pasta junto ao arquivo ```cargo.toml```.
 
 Para executar o arquivo `gauss.rs`:
 
 ```
-cargo build 
 cargo run
 
 ```
