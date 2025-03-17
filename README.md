@@ -70,6 +70,10 @@ X = [-3.75;  1.31;  0.75; -0.31;  2.15; -1.47;  1.93;  0.80;  4.84; -4.57]
 
 ## Em Golang
 
+> [!WARNING] 
+> No intervalo de valores [10,90] para a dimensão da matriz, o tempo de execução do programa é impresso como 0 segundos!
+> Infelizmente não encontramos solução, peço desculpas. 
+
 Para executar o código de `gauss.go`, digite:
 
 ```
