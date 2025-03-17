@@ -2,23 +2,23 @@
 
 **Objetivo**: Compreender as características de Rust e Golang comparando programas implementados nestas linguagens com a implementação em C.
 
-Projetado sobre [Gaussian Elimination](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp.git) 
+*Projetado sobre [Gaussian Elimination](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp.git)*
 
 
-## Componentes do grupo:
+## *Componentes do grupo:*
 - Lucas Lemes <br/>
 - Felipe Larangeira <br/>
 - Gabriel de Souza Maciel  <br/>
 - Frederico Larangeira <br/>
 
 
-## Utilização do programa: 
+## *Utilização do programa:* 
 
 > [!IMPORTANT] 
 > Os programas foram executados e testados em máquina Windows.
 
 
-## *Em C*
+## *Em C:*
 
 Para executar o código de `gauss.c`, digite:
 
@@ -68,7 +68,7 @@ Elapsed time = 0.0838 ms.
 X = [-3.75;  1.31;  0.75; -0.31;  2.15; -1.47;  1.93;  0.80;  4.84; -4.57]
 ```
 
-## *Em Golang*
+## *Em Golang:*
 
 > [!WARNING] 
 > No intervalo de valores [10,90] para a dimensão da matriz, o tempo de execução do programa é impresso como 0 segundos!
@@ -117,7 +117,7 @@ Computing Serially.
 Elapsed time = 58 ms.
 ```
 
-## *Em Rust*
+## *Em Rust:*
 
 Para executar o arquivo `gauss.rs`:
 
