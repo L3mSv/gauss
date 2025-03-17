@@ -17,6 +17,9 @@ Projetado sobre [Gaussian Elimination](https://github.com/gmendonca/gaussian-eli
 > [!IMPORTANT] 
 > Os programas foram executados e testados em máquina Windows.
 
+
+## Em C
+
 Para executar o código de `gauss.c`, digite:
 
 ```
@@ -65,6 +68,8 @@ Elapsed time = 0.0838 ms.
 X = [-3.75;  1.31;  0.75; -0.31;  2.15; -1.47;  1.93;  0.80;  4.84; -4.57]
 ```
 
+## Em Golang
+
 Para executar o código de `gauss.go`, digite:
 
 ```
@@ -106,4 +111,53 @@ Initializing...
 Computing Serially.
 
 Elapsed time = 58 ms.
+```
+
+## Em Rust
+
+Para executar o arquivo `gauss.rs`:
+
+```
+cargo build #Criar um executavel (Nao obrigatorio para execucao)
+cargo run
+
+```
+
+A saida deve se parecer com:
+
+```
+Insira o tamanho da matriz
+5
+A:
+1 2 6 6 7 
+3 9 3 3 9 
+4 7 4 9 5 
+5 2 7 5 8 
+9 9 4 9 6 
+B:
+5 8 4 2 1 
+X:
+0 0 0 0 0 
+A:
+1 2 6 6 7 
+0 3 -15 -15 -12 
+0 0 -25 -20 -27 
+0 0 0 -14.599998 9.040001 
+0 0 0 0 0.9315033 
+B:
+5 -7 -18.333334 4.533333 0.31963968 
+X:
+0 0 0 0 0 
+A:
+1 2 6 6 7 
+0 3 -15 -15 -12 
+0 0 -25 -20 -27 
+0 0 0 -14.599998 9.040001 
+0 0 0 0 0.9315033
+B:
+5 -7 -18.333334 4.533333 0.31963968
+X:
+0 -1145.0795 119.81845 -4.8438354 0
+2.47ms
+
 ```
